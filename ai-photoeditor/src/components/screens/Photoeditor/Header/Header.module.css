@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
+
+.header {
+  background-size: 100%;
+  background-repeat: repeat;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3rem;
+  font-family: 'Nunito Sans', sans-serif;
+  animation: textcoloranimation 6s infinite;
+}
+
+@keyframes textcoloranimation {
+  0% {
+    color: #cf23cf;
+  }
+  20% {
+    color: #f32170;
+  }
+  40% {
+    color: #ff6b08;
+  }
+  60% {
+    color: #eedd44;
+  }
+  80% {
+    color: #f32170;
+  }
+  100% {
+    color: #cf23cf;
+  }
+}
